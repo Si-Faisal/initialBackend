@@ -7,4 +7,4 @@ const jwtSchema = new Schema({
 
 const jwtModel = model("jwt",jwtSchema);
 
-module.export = jwtModel;
+module.exports = jwtModel;
